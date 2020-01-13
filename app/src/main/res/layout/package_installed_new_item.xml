@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="@dimen/card_view_elevation"
+    android:layout_margin="@dimen/medium_padding"
+    app:cardCornerRadius="@dimen/card_view_radius">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/medium_padding">
+
+        <ImageView
+            android:id="@+id/system_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/medium_padding"
+            android:src="@drawable/ic_turned_in_black_24dp"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/app_icon_image_view"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="@dimen/small_padding"
+            tools:src="@mipmap/ic_launcher"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/app_name_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Sberbank"/>
+
+            <TextView
+                android:id="@+id/app_package_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="ru.sberbankmobile"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

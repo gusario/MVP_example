@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AbstractionsUnitTestsAndMore</string>
+    <string name="load_data">Загрузить данные</string>
+    <string name="show_system_apps">Показывать системные приложения</string>
+    <string name="dont_sort">Не сортировать</string>
+    <string name="sort_by_name">Сортировать по имени файла</string>
+    <string name="sort_by_package_name">Сортировать по имени пакета</string>
+    <string name="refresh">Обновить</string>
+</resources>
